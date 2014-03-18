@@ -1,0 +1,47 @@
+/* RESET STYLES */
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset, figure {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "quicksand-regular";
+  src: url('fonts/quicksand-regular.eot');
+  src: url('fonts/quicksand-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/quicksand-regular.woff') format('woff'),
+       url('fonts/quicksand-regular.ttf')  format('truetype'),
+       url('fonts/quicksand-regular.otf')  format('opentype');
+}
+
+@font-face {
+  font-family: "quicksand-bold";
+  src: url('fonts/quicksand-bold.eot');
+  src: url('fonts/quicksand-bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/quicksand-bold.woff') format('woff'),
+       url('fonts/quicksand-bold.ttf')  format('truetype'),
+       url('fonts/quicksand-bold.otf')  format('opentype');
+}
+
+@font-face {
+  font-family: "quicksand-light";
+  src: url('fonts/quicksand-light.eot');
+  src: url('fonts/quicksand-light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/quicksand-light.woff') format('woff'),
+       url('fonts/quicksand-light.ttf')  format('truetype'),
+       url('fonts/quicksand-light.otf')  format('opentype');
+}
+
+/* ELEMENTS */
+
+body {
+  font-family: "quicksand";
+  margin: 0px;
+  padding: 0px;
+}
+
+/* CLASSES */
+
+/* IDS */
